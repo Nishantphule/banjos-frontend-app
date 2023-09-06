@@ -9,6 +9,7 @@ import { BackBtn } from '../components/BackBtn';
 import IconVeg from '../icons/icons8-veg-48.png'
 import IconNonVeg from '../icons/icons8-non-veg-48.png'
 import Card from '@mui/material/Card';
+import Loading from '../components/Loading';
 
 export default function Banjos() {
 
@@ -28,7 +29,7 @@ export default function Banjos() {
             <Card className='menuCardItem'>
                 <h2>Banjos</h2>
 
-                <List sx={{ width: '100%' }}>
+                {menu ? <List sx={{ width: '100%' }}>
                     {menu.map(({ name, price, tag }, i) => (
                         <ListItem
                             key={i}
@@ -44,7 +45,7 @@ export default function Banjos() {
                             <ListItemText primary={name} />
                         </ListItem>
                     ))}
-                </List>
+                </List> : <Loading />}
             </Card>
         </div>
     )

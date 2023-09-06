@@ -17,14 +17,14 @@ import Fries from './menuComponents/Fries';
 import Beverages from './menuComponents/Beverages';
 import Deserts from "./menuComponents/Deserts"
 import Pizza from './menuComponents/Pizza';
-import InstagramIcon from '@mui/icons-material/Instagram';
+// import InstagramIcon from '@mui/icons-material/Instagram';
 
 function App() {
 
   return (
     <div className="App">
 
-      <AppBar position="static" color='error'>
+      <AppBar position="sticky" color='error'>
 
         <Toolbar >
           <LocalDiningIcon />

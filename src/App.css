@@ -35,7 +35,9 @@ body {
 .menuCard {
   width: 40%;
   padding: 1%;
+  cursor: pointer;
 }
+
 
 
 .menuCardContainer {
