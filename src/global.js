@@ -1,0 +1,1 @@
+export const API = 'https://g3u4mr16i7.execute-api.ap-south-1.amazonaws.com/banjos/menu'  
