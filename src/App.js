@@ -17,7 +17,7 @@ import Fries from './menuComponents/Fries';
 import Beverages from './menuComponents/Beverages';
 import Deserts from "./menuComponents/Deserts"
 import Pizza from './menuComponents/Pizza';
-
+import InstagramIcon from '@mui/icons-material/Instagram';
 
 function App() {
 

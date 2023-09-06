@@ -63,14 +63,14 @@ hr {
 }
 
 .tagIcons {
-  height: 40px;
+  height: 30px;
   margin-right: 5px;
 }
 
 .pizzaPrice {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  align-items: flex-end;
 }
 
 .menuCardItem {

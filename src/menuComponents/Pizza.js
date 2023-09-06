@@ -8,7 +8,7 @@ import axios from 'axios';
 import { BackBtn } from '../components/BackBtn';
 import IconVeg from '../icons/icons8-veg-48.png'
 import IconNonVeg from '../icons/icons8-non-veg-48.png'
-import IconCheese from '../icons/icons8-cheese-wedge-48.png'
+// import IconCheese from '../icons/icons8-cheese-wedge-48.png'
 import Card from '@mui/material/Card';
 
 export default function Pizza() {
@@ -30,10 +30,10 @@ export default function Pizza() {
 
                 <div className='pizzaPrice'>
                     <div><h2>Pizza</h2></div>
-
-                    <div><h1><img src={IconCheese} alt='single Cheese' /> / <img src={IconCheese} alt='double Cheese' /><img src={IconCheese} alt='double Cheese' /></h1></div>
-
-
+                    <div>
+                        <h3>Cheese </h3>
+                        <h3>(Single / Double)</h3>
+                    </div>
                 </div>
 
                 <List sx={{ width: '100%' }}>
@@ -53,7 +53,7 @@ export default function Pizza() {
                         </ListItem>
                     ))}
                 </List>
-            </Card>
-        </div>
+            </Card >
+        </div >
     )
 }
