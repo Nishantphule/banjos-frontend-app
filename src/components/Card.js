@@ -6,11 +6,11 @@ import Typography from '@mui/material/Typography';
 
 export default function ImgMediaCard({ onClick, name, img }) {
     return (
-        <Card className="menuCard" sx={{ maxWidth: 245 }} onClick={onClick}>
+        <Card className="menuCard" sx={{ maxWidth: 345 }} onClick={onClick}>
             <CardMedia
                 component="img"
                 alt={name}
-                height="150"
+                height="140"
                 src={img}
             />
             <CardContent>
